@@ -1,0 +1,8 @@
+[default]
+src = "src"
+out = "out"
+libs = ["lib"]
+rpc_url = "https://goerli.infura.io/v3/YOUR_INFURA_KEY" # Or another testnet provider URL
+
+[profile.goerli]
+rpc_url = "https://goerli.infura.io/v3/YOUR_INFURA_KEY"  # Optional, if deploying to Goerli
